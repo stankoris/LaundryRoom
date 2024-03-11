@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+a:hover {
+    color: blue;
+}
+
+main {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th.laundry-heading {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Stil za laundry */
+.delete_laundry_button {
+    color: red;
+    cursor: pointer;
+}
+
+#laundry_delete_modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+#laundry_delete_modal p {
+    margin: 0 0 15px 0;
+}
+
+#link_laundry_delete, #laundry_delete_modal a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#link_laundry_delete:hover, #laundry_delete_modal a:hover {
+    background-color: #555;
+}
+
+/* Stil za service */
+.delete_service_button {
+    color: red;
+    cursor: pointer;
+}
+
+#service_delete_modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+#service_delete_modal p {
+    margin: 0 0 15px 0;
+}
+
+#link_service_delete, #service_delete_modal a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#link_service_delete:hover, #service_delete_modal a:hover {
+    background-color: #555;
+}
